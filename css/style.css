@@ -64,46 +64,6 @@ body {
   align-items: center;
 }
 
-.content {
-  display: flex;
-}
-
-.sidebar {
-  background-color: var(--color-grey-dark-1);
-  flex: 0 0 18%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.hotel-view {
-  background-color: #fff;
-  flex: 1;
-}
-
-.detail {
-  font-size: 1.4rem;
-  display: flex;
-  padding: 4.5rem;
-  background-color: var(--color-grey-light-2);
-  border-bottom: 1px solid var(--line);
-}
-
-.description {
-  background-color: #fff;
-  box-shadow: var(--shadow-light);
-  padding: 3rem;
-  flex: 0 0 60%;
-  margin-right: 4.5rem;
-}
-
-.user-reviews {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .logo {
   height: 3.25rem;
   width: 3.25rem;
@@ -199,6 +159,16 @@ body {
   border-radius: 50%;
   margin-right: 1rem;
 }
+.content {
+  display: flex;
+}
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .side-nav {
   font-size: 1.4rem;
@@ -249,14 +219,16 @@ body {
   margin-right: 2rem;
   fill: currentColor;
 }
-
 .legal {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
 }
-
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
 .gallery {
   display: flex;
 }
@@ -264,7 +236,6 @@ body {
   width: 100%;
   display: block;
 }
-
 .overview {
   display: flex;
   align-items: center;
@@ -315,7 +286,28 @@ body {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-2);
+  border-bottom: 1px solid var(--line);
+}
 
+.description {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .btn-inline {
   border: none;
   color: var(--color-primary);
@@ -462,7 +454,6 @@ body {
   font-family: sans-serif;
   z-index: 1;
 }
-
 .cta {
   padding: 3.5rem 0;
   text-align: center;
